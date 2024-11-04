@@ -56,7 +56,6 @@ function calculateNetTotal(transactions) {
     .reduce(function (total, transaction) {
       return total + transaction[1];
     }, 0);
-
   return totalIncome - totalExpenses;
 }
 
