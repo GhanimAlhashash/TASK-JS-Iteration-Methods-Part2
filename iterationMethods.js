@@ -39,7 +39,7 @@ function calculateTotalExpenses(transactions) {
   }, 0);
 }
 
-// 5) Write a `calculateNetTotal` function that calculates the net total (total income - total expenses) and returns it.
+// 5) Write a `calculateNetTotal` function that calculates the net total (total income - total expenses) and returns it hi.
 function calculateNetTotal(transactions) {
   const totalIncome = transactions
     .filter(function (transaction) {
